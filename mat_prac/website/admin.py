@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 
-from .models import Post, Contact, Social, WebElement
+from .models import Post, Contact, Social, WebElement, Soupiska
 
 
 class PostAdmin(admin.ModelAdmin):
@@ -48,7 +48,18 @@ class WebElementAdmin(admin.ModelAdmin):
     list_display = ("comp_name",)
 
 
+class SoupiskaAdmin(admin.ModelAdmin):
+    fieldsets = [
+        ("Jméno", {"fields": ["name"]}),
+        ("Datum narození", {"fields": ["birthday"]}),
+        ("Fotka", {"fields": ["photo"]}),
+        ("Skupina", {"fields": ["group"]})
+    ]
+    list_display = ("name", "birthday", "group")
+
+
 admin.site.register(Post, PostAdmin)
 admin.site.register(Contact, ContactAdmin)
 admin.site.register(Social, SocialAdmin)
 admin.site.register(WebElement, WebElementAdmin)
+admin.site.register(Soupiska, SoupiskaAdmin)

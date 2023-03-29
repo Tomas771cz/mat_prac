@@ -8,7 +8,7 @@
             {% if item.group == group %}
                 <h4>{{item.post_headline}}</h4>
                 <p>{{item.pub_date}}</p>
-                {% if item.img %} <img style='height: 100%; width: 100%; object-fit: contain' src="{{item.img.url}}" max-width="500"> {% endif %}
+                {% if item.img %} <img style='height: 50%; width: 50%; object-fit: contain' src="{{item.img.url}}" max-width="500"> {% endif %}
                 <p>{{item.post_text}}</p>
             {% endif %}
         {% endfor %}

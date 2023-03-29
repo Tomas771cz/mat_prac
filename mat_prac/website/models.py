@@ -25,5 +25,12 @@ class Social(models.Model):
 class WebElement(models.Model):
     comp_name = models.CharField(max_length=10)
     comp_logo = models.ImageField(null=True, blank=True, upload_to="static/")
-    banner = models.ImageField(null=True, blank=True, upload_to="static/")
+    banner = models.ImageField(upload_to="static/")
     map = models.CharField(max_length=2000)
+
+
+class Soupiska(models.Model):
+    name = models.CharField(max_length=50)
+    birthday = models.DateField("Datum narození")
+    photo = models.ImageField(upload_to="static/")
+    group = models.CharField(max_length=20)

@@ -4,7 +4,7 @@
 
 {% block content %}
 <h1>O nás</h1>
-<iframe width="420" height="315" src="https://www.youtube.com/embed/Yjya5tFOlEQ">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/vGY4NPpkFSA">
 </iframe>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis pulvinar. Nulla quis diam. Nullam dapibus fermentum ipsum. Aliquam ante. Pellentesque pretium lectus id turpis. Fusce consectetuer risus a nunc. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Quisque porta. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam ornare wisi eu metus. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Aliquam ornare wisi eu metus.</p>
 
