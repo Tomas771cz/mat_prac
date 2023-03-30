@@ -3,6 +3,8 @@ from django.contrib import admin
 
 from .models import Post, Contact, Social, WebElement, Soupiska
 
+# vzhled formulářů na stránkách admin
+
 
 class PostAdmin(admin.ModelAdmin):
     fieldsets = [
@@ -56,6 +58,8 @@ class SoupiskaAdmin(admin.ModelAdmin):
         ("Skupina", {"fields": ["group"]})
     ]
     list_display = ("name", "birthday", "group")
+
+# přidání formulářů na stránku admin
 
 
 admin.site.register(Post, PostAdmin)

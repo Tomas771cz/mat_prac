@@ -4,6 +4,8 @@ from django.conf.urls.static import static
 
 from . import views
 
+# pomocí těchto odkazů se člověk pohybuje na stránkách
+
 app_name = "website"
 urlpatterns = [
     path("", views.IndexView, name="index"),

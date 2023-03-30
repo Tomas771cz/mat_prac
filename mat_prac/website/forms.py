@@ -3,7 +3,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
 
-# Create your forms here.
+# formulář na vytvoření nových uživatelů
 
 class NewUserForm(UserCreationForm):
     email = forms.EmailField(required=True)

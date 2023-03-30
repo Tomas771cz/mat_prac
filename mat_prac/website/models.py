@@ -1,5 +1,7 @@
 from django.db import models
 
+# vytvoření tabulek v databázy
+
 
 class Post(models.Model):
     post_headline = models.CharField(max_length=50)

@@ -8,6 +8,8 @@ social = Social.objects
 webelement = WebElement.objects
 post = Post.objects.order_by("-pub_date")
 
+# co všechno se má odeslat z databáze na stránku a podle jakého templatu má stránka vypadat
+
 
 def IndexView(response):
     return render(
